@@ -1,7 +1,7 @@
 .container {
   display:grid;
   grid-gap: 5px;
-  grid-template-columns: repeat(12, 1fr); /*fraction units makes 2 col.responsive*/
+  grid-template-columns: repeat(6, 1fr); /*fraction units makes 2 col.responsive*/
   grid-template-rows: 50px auto 50px;
 
 }
@@ -15,14 +15,22 @@
 }
 
 .about {
+grid-column: 2/2;
+font-size: 16px;
+padding: 20px;
+}
+
+.photo{
+grid-column: 2/1;
 font-size: 16px;
 padding: 10px;
 }
 
+
 .content {
-  grid-column: 2/-1;
+  grid-column: 3/-1;
 }
 
 .footer {
-  grid-column: 1/-1; -1 targets the very last column line
-}
+  grid-column: 1/-1; /*-1 targets the very last column line*/
+  }

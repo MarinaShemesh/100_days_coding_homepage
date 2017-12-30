@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   /* font-size: 2em;*/
-    /*color: #2E382F;*/
     color:white;
 }
 
@@ -23,11 +21,40 @@ html, body {
 
 .container > div:nth-child(2n) {
       background-color: #A28CB2;
-      
-
 }
 
 .container > div:nth-child(4n) {
       background-color: #664780;
 }
 
+img {
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+ul{
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  display:flex;
+
+}
+.footer li a:hover{
+  background-color: #664780;
+}
+
+.footer li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    text-decoration:none;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align:center;
+    font-size: 30px;
+    margin: 10px;
+    color: #006400;
+    outline: 0; 
+}
