@@ -35,7 +35,7 @@ img {
 ul{
   list-style-type:none;
  /* margin:10px;*/
-  padding:0px;
+  padding: 0px;
   display:flex;
 
 }
@@ -47,7 +47,7 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #556B2F;
+    background-color: #5D6CA3;
     text-decoration:none;
     height: 35px;
     width: 35px;
@@ -61,11 +61,13 @@ ul{
 
 table {
   border-collapse: collapse;
-  font-size: 3em;
+  font-size: 25px;
+  color: white;
 }
 table td {
   border: 2px solid white;
   padding: 10px;
+
 }
 table tr:first-child td {
   border-top: 0;
@@ -78,4 +80,10 @@ table tr td:first-child{
 }
 table tr td:last-child {
   border-right: 0;
+}
+
+a {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
 }
